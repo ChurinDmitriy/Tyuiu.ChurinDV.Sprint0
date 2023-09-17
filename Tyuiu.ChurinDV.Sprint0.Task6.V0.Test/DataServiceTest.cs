@@ -8,19 +8,19 @@ namespace Tyuiu.ChurinDV.Sprint0.Task6.V0.Test
     public class DataServiceTest
     {
         [TestMethod]
-        public void CheckedAdditionArrayValid()
+        public void CheckAdditionArrayValid()
         {
             var numbers = new int[] { 1, 2, 3, 4, 5 };
             var res = DataService.AdditionArray(numbers);
             Assert.AreEqual(15, res);
         }
-        public void CheckedSubstractionArrayValid()
+        public void CheckSubstractionArrayValid()
         {
             var numbers = new int[] { 1, 2, 3, 4, 5 };
             var res = DataService.SubstractionArray(numbers);
             Assert.AreEqual(-15, res);
         }
-        public void CheckedMultArrayValid()
+        public void CheckMultArrayValid()
         {
             var numbers = new int[] { 1, 2, 3, 4, 5 };
             var res = DataService.MultiplicationArray(numbers);
